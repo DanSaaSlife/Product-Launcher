@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Product Launch Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SaaS Product Launch Simulator</h1>
+            <div class="status">
+                <span id="budget">Budget: $100,000</span>
+                <span id="month">Month: 1</span>
+            </div>
+        </header>
+        
+        <main>
+            <section id="feature-development">
+                <h2>Feature Development</h2>
+                <div id="features">
+                    <!-- Feature buttons will be added dynamically here -->
+                </div>
+            </section>
+            
+            <section id="marketing">
+                <h2>Marketing Budget</h2>
+                <input type="range" id="marketing-budget" min="0" max="50000" step="1000" value="0">
+                <span id="marketing-value">$0</span>
+            </section>
+            
+            <section id="customer-support">
+                <h2>Customer Support</h2>
+                <button id="bug-fixes">Bug Fixes</button>
+                <button id="ux-improvements">UX Improvements</button>
+                <button id="customer-support-btn">Enhance Support</button>
+            </section>
+            
+            <button id="end-turn">End Turn</button>
+            
+            <section id="feedback">
+                <h2>Market Feedback</h2>
+                <div id="feedback-content">
+                    <!-- Feedback will be added dynamically here -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
